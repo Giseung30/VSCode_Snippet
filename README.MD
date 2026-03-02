@@ -2,7 +2,7 @@
 > 개발 생산성을 높이기 위한 VS Code 코드 스니펫( Snippets) 모음입니다.
 
 ## 🛠️ 스니펫 생성 및 적용 방법 (How to Use)
-본 레포지토리의 스니펫을 본인의 **VS Code**에 적용하는 방법입니다.
+> 스니펫을 **VS Code**에 적용하는 방법입니다.
 
 ### 1. 스니펫 설정창 열기
 + `File` > `Preferences` > `Configure Snippets` 선택
