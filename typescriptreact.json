@@ -1,0 +1,77 @@
+{
+  "sfor": {
+    "prefix": "sfor",
+    "body": [
+      "for (let ${1:i} = 0, ${2:l} = ${3:0}; $1 < $2; ++$1) {",
+      "    $4",
+      "}"
+    ],
+    "description": "for문을 만듭니다"
+  },
+  "sforof": {
+    "prefix": "sforof",
+    "body": [
+      "for (const ${1:item} of ${2:items}) {",
+      "    $3",
+      "}"
+    ],
+    "description": "forof문을 만듭니다"
+  },
+
+  "slog": {
+    "prefix": "slog",
+    "body": [
+      "console.log(`$1`);$2"
+    ],
+    "description": "console.log문을 만듭니다"
+  },
+  "slog1": {
+    "prefix": "slog1",
+    "body": [
+      "console.log(`${1:var1}: ${$1}`);$2"
+    ],
+    "description": "변수 1개를 출력하는 console.log문을 만듭니다"
+  },
+  "slog2": {
+    "prefix": "slog2",
+    "body": [
+      "console.log(`${1:var1}: ${$1}, ${2:var2}: ${$2}`);$3"
+    ],
+    "description": "변수 2개를 출력하는 console.log문을 만듭니다"
+  },
+  "slog3": {
+    "prefix": "slog3",
+    "body": [
+      "console.log(`${1:var1}: ${$1}, ${2:var2}: ${$2}, ${3:var3}: ${$3}`);$4"
+    ],
+    "description": "변수 3개를 출력하는 console.log문을 만듭니다"
+  },
+  "slog4": {
+    "prefix": "slog4",
+    "body": [
+      "console.log(`${1:var1}: ${$1}, ${2:var2}: ${$2}, ${3:var3}: ${$3}, ${4:var4}: ${$4}`);$5"
+    ],
+    "description": "변수 4개를 출력하는 console.log문을 만듭니다"
+  },
+
+  "shistory": {
+    "prefix": "shistory",
+    "body": [
+      "/*",
+      "",
+      "@ 기능 : ${1:기능}",
+      "",
+      "@ v${2:1}.${3:0}.${4:0} / ${5:이름} [${6:0000}.${7:00}.${8:00}] / ${9:설명}",
+      "",
+      "*/"
+    ],
+    "description": "History를 만듭니다."
+  },
+  "sline": {
+    "prefix": "sline",
+    "body": [
+      "//_____________________________________________ ${1:Comment}"
+    ],
+    "description": "코멘트를 남길 수 있는 줄을 만듭니다."
+  },
+}
